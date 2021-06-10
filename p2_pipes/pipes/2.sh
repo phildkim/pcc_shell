@@ -1,0 +1,1 @@
+sort -n -k3 -t: /etc/passwd | tail -1 | cut -f1 -d:
